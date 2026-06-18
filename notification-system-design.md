@@ -51,4 +51,49 @@ result should be : response : 200 ok
   
 }
 
+#### 2. Get Unread Notifications Count
+GET /api/v1/notifications/unread/count
+
+return count of unread notifications
+
+#### 3. Mark Notification as Read
+PUT /api/v1/notifications/:notificationId/read
+
+mark one notification as read
+
+#### 4. Mark All Notifications as Read
+PUT /api/v1/notifications/read-all
+
+mark all notifications as read
+
+#### 5. Delete a Notification
+DELETE /api/v1/notifications/:notificationId
+
+delete one notification
+
+#### 6. Delete All Notifications
+DELETE /api/v1/notifications/delete-all
+
+delete all notifications
+
+#### 7. Get Notification Details
+GET /api/v1/notifications/:notificationId
+
+get details of one notification
+
+## Stage 2 & 3: Routes We Use
+
+these are all the routes we need:
+
+GET    /api/v1/notifications              - get all notifications
+GET    /api/v1/notifications/:id          - get one notification
+GET    /api/v1/notifications/unread/count - get unread count
+PUT    /api/v1/notifications/:id/read     - mark as read
+PUT    /api/v1/notifications/read-all     - mark all as read
+DELETE /api/v1/notifications/:id          - delete one
+DELETE /api/v1/notifications/delete-all   - delete all
+
+
+thats it. these are the main routes. each route handles its own logic with proper queries and indexes on database
+
 
