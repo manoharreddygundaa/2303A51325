@@ -18,3 +18,22 @@ this prevents to add sensitive data into the git hub platform
 ## steps to fork it
    download my zip and extract
    after extracting
+
+ ## install the req dependencies 
+
+ check if npm is installed 
+ by npm -v
+ it should show some version 
+
+ if yes 
+  now we install some dependencies
+
+  npm i -y
+  npm i express
+  npm i mongoose
+  npm i axios
+  npm i dotenv
+  optional packages
+  npm i ejs for UI
+  npm i path if we use any css or js files
+  npm nodemon to auto restrat server on saving code on vscode
