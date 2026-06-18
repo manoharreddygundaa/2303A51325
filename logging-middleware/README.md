@@ -21,9 +21,9 @@ this prevents to add sensitive data into the git hub platform
 
  ## install the req dependencies 
 
- check if npm is installed 
- by npm -v
- it should show some version 
+ check if npm is installed  </br>
+ by npm -v </br>
+ it should show some version </br> 
 
  if yes 
   now we install some dependencies
