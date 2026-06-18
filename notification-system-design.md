@@ -20,34 +20,16 @@ Request:
 json
 Headers:
 {
-  "Authorization": "Bearer <jwt_token>",
+  "Authorization": token here,
   "Content-Type": "application/json"
 }
 
 implemetation parameters
 
-limit - in range
-offset - 0
-status: string (values: "read", "unread", "all" - default: "all")
-like this etc ...
 
 result should be : response : 200 ok
 {
-  "success": true,
-  "message": "Notifications retrieved successfully",
-  "data": {
-    "notifications": [
-      {
-        info
-      }
-    ],
-    "pagination": {
-     here we can get offset etc
-    },
-    "statistics": {
-       msg category count
-    }
-  },
+  result
   
 }
 
