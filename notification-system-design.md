@@ -63,7 +63,6 @@ GET /api/v1/notifications/:notificationId
 
 get details of one notification
 
-## Stage 2 & 3: Routes We Use
 
 these are all the routes we need:
 
